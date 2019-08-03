@@ -48,3 +48,70 @@ header nav div span {
   font-weight: bold;
   margin-right: 8px;
 }
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.post-list .post-item {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px -5px #979797;
+}
+
+.post-list .post-item .post {
+  font-size: 14px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 20px;
+}
+
+.post-list .post-item .post .post-header {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.post-list .post-item .post .post-header img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.post-list .post-item .post .post-header div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.post-list .post-item .post .post-header div span {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+.post-list .post-item .comments img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.post-list .post-item .comments .comment {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post-list .post-item .comments .comment:first-child {
+  margin-top: 0;
+}
+
+.post-list .post-item .comments .comment div {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  margin-left: 10px;
+}
